@@ -1,0 +1,34 @@
+        starting to send 10 separate messages 10 times and calculate throughput bycalculating mean of throughputs...
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+so the throughput is equal to 35.65763744461562
+--------------------
+starting to send 10 separate messages 10 times and calculate throughput bycalculating all_time / all_bytes_received...
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+throughput
+this program took 3.060137987136841 milliseconds to bde done and 100 bytes were sent at all
+so the throughput is equal to 32.678264973784096
+--------------------
+starting to send a message which includes 10 times of the word "throughput"
+throughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughput
+so the throughput is equal to 332.78988468246024
+--------------------
+starting to send a message which includes 100 times of the word "throughput"
+throughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughputthroughput
+so the throughput is equal to 3491.0727736868434
