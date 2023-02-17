@@ -7,6 +7,7 @@ This question in intended to calculate throughput using UDP protocol. There are 
 2. send the "throughput" phrase from server to client, and after receiving the response, send it again. repeat this step 10 times and calculate throughput by diving all spent time by all exchanged bytes.
 3. send only one message containing 10 times of "throughput" phrase from clinet to server and caclulate throughput.
 4. send only one message containing 10 times of "throughput" phrase from clinet to server and caclulate throughput.
+
 __Note:__ for getting reasonable results, run client and server codes in different devices.
 
 ## Question 2: Chatroom
@@ -14,4 +15,5 @@ A simple Chatroom is implemented in python using TCP protocol. It is contained o
 
 ## Questoin 3: HTTP File
 in this question, three smiliar servers are implemented in three different folders, named [dir1](./dir1), [dir2](./dir2), [dir3](./dir3), and each of them can only access files of their own directory. Every server receives an `HTTP GET` request that contains relative address of a file. If the file existed in the directory of that server, it should be send as an `HTTP` response to the client. But, if the file does not exist, The server should request the file from two other servers, and if they have had the file, they should send it to requesting server. If that file existed in other server files, the requesting server should send it as an `HTTP` response to the client. But, if it does not exist, the server should send an `HTTP` response with a proper `Response Code`. 
+
 __Note:__ for requesting, no python client file is neede, and you can use web browser to send `HTTP` requests. Also, requested files are not neccessarily text file, and they can be any binary file e.g. audio, video, etc.
